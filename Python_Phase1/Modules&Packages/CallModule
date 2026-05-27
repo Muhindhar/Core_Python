@@ -1,0 +1,6 @@
+#from mymodule import myfunc as m
+import mymodule
+coursename=input("enter the course : ")
+print("Details")
+mymodule.myfunc(coursename)
+print("Course name : ",mymodule.dept_code)

@@ -1,0 +1,7 @@
+myfile = open("demo.txt","r+")
+print(myfile.tell())
+myfile.read()
+print(myfile.tell())
+myfile.write("Haiiii im muhindhar from salem")
+print(myfile.seek(2))
+print(myfile.tell())
