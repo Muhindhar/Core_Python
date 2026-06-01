@@ -13,7 +13,7 @@ class AccManagement:
             raise PayOutOfBoundsException(
                 "Insufficient balance."
             )
-        self.current_balance = amount - self.current_balance
+        self.current_balance =self.current_balance-amount
         print("Withdrawal successful")
         print("Updated balance : ", self.current_balance)
 try:
