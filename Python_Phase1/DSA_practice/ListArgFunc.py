@@ -12,3 +12,4 @@ print(list1)
 inc(list1)
 print("after func call")
 print(list1)
+
