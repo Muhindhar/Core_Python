@@ -100,6 +100,138 @@
         "documentation": {}
     },
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "circle_area",
+        "importPath": "geometry.shapes",
+        "description": "geometry.shapes",
+        "isExtraImport": true,
+        "detail": "geometry.shapes",
+        "documentation": {}
+    },
+    {
+        "label": "rectangle_area",
+        "importPath": "geometry.shapes",
+        "description": "geometry.shapes",
+        "isExtraImport": true,
+        "detail": "geometry.shapes",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "calculator",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "calculator",
+        "description": "calculator",
+        "detail": "calculator",
+        "documentation": {}
+    },
+    {
+        "label": "vowel",
+        "importPath": "utilities.string_utils",
+        "description": "utilities.string_utils",
+        "isExtraImport": true,
+        "detail": "utilities.string_utils",
+        "documentation": {}
+    },
+    {
+        "label": "prime",
+        "importPath": "utilities.number_utils",
+        "description": "utilities.number_utils",
+        "isExtraImport": true,
+        "detail": "utilities.number_utils",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
         "label": "ABC",
         "importPath": "abc",
         "description": "abc",
@@ -133,29 +265,11 @@
         "documentation": {}
     },
     {
-        "label": "math",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
-        "documentation": {}
-    },
-    {
         "label": "combinations",
         "importPath": "itertools",
         "description": "itertools",
         "isExtraImport": true,
         "detail": "itertools",
-        "documentation": {}
-    },
-    {
-        "label": "string",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "string",
-        "description": "string",
-        "detail": "string",
         "documentation": {}
     },
     {
@@ -205,163 +319,163 @@
     {
         "label": "rabbit",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Animals",
-        "description": "Python_Phase1.Controlflow_Stmts.Animals",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Animals",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Animals",
         "peekOfCode": "rabbit = int(input(\"Enter rabbit count : \"))\ndeer =int(input(\"Enter deer count : \"))\nbirds =int(input(\"Enter birds count : \"))\nsquirrels=int(input(\"Enter squirrels count : \"))\nsum=rabbit + deer + birds + squirrels\nif total == sum + 1:\n    print(\"Baby lion is mischievous\")\nelif total==sum:\n    print(\"Baby lion is well behaved\")\nelse:",
-        "detail": "Python_Phase1.Controlflow_Stmts.Animals",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Animals",
         "documentation": {}
     },
     {
         "label": "held",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Attendance",
-        "description": "Python_Phase1.Controlflow_Stmts.Attendance",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
         "peekOfCode": "held = int(input(\"Enter number of classes held: \"))\nattended = int(input(\"Enter number of classes attended: \"))\nattendance=(attended/held)*100\nif attendance>=75:\n    print(str(int(attendance))+\"% Allowed\")\nelse:\n    medical_cause = input(\"Do you have medical cause? (Y/N): \")\n    if medical_cause==\"Y\":\n        print(str(int(attendance))+\"% Allowed\")\n    else:",
-        "detail": "Python_Phase1.Controlflow_Stmts.Attendance",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
         "documentation": {}
     },
     {
         "label": "attended",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Attendance",
-        "description": "Python_Phase1.Controlflow_Stmts.Attendance",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
         "peekOfCode": "attended = int(input(\"Enter number of classes attended: \"))\nattendance=(attended/held)*100\nif attendance>=75:\n    print(str(int(attendance))+\"% Allowed\")\nelse:\n    medical_cause = input(\"Do you have medical cause? (Y/N): \")\n    if medical_cause==\"Y\":\n        print(str(int(attendance))+\"% Allowed\")\n    else:\n        print(str(int(attendance))+\"% Not allowed\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Attendance",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Attendance",
         "documentation": {}
     },
     {
         "label": "code",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.code",
-        "description": "Python_Phase1.Controlflow_Stmts.code",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.code",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.code",
         "peekOfCode": "code = int(input(\"enter the code\"))\nif(code==1):\n    a = float(input(\"enter 1st number : \"))\n    b = float(input(\"enter 2nd number : \"))\n    print(a+b)\nelif code==2:\n     a = float(input(\"enter 1st number : \"))\n     b = float(input(\"enter 2nd number : \"))\n     print(a*b)\nelif code ==3:",
-        "detail": "Python_Phase1.Controlflow_Stmts.code",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.code",
         "documentation": {}
     },
     {
         "label": "number",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.EvenOdd",
-        "description": "Python_Phase1.Controlflow_Stmts.EvenOdd",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.EvenOdd",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.EvenOdd",
         "peekOfCode": "number = int(input(\"Enter the number : \"))\nif number%2==0:\n    print(\"Even\")\nelse:\n    print(\"Odd\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.EvenOdd",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.EvenOdd",
         "documentation": {}
     },
     {
         "label": "rate",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Mobilerate",
-        "description": "Python_Phase1.Controlflow_Stmts.Mobilerate",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Mobilerate",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Mobilerate",
         "peekOfCode": "rate = int(input(\"Enter the rate of mobile : \"))\nif rate<15000:\n    print(\"Mobile chosen is within the budget\")\nelse:\n    print(\" Mobile chosen is beyond the budget\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Mobilerate",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Mobilerate",
         "documentation": {}
     },
     {
         "label": "age",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.movieclub",
-        "description": "Python_Phase1.Controlflow_Stmts.movieclub",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.movieclub",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.movieclub",
         "peekOfCode": "age = int(input(\"Enter the age\"))\nif age>0 and age<=10:\n    print(\" Cartoon Club\")\nelif age>=11 and age<=20:\n    print(\"Teens Club\")\nelif age>20:\n    print(\"Not Allowed\")\nelse:\n    print(\"Invalid Age\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.movieclub",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.movieclub",
         "documentation": {}
     },
     {
         "label": "number",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.OddEvenincreasing",
-        "description": "Python_Phase1.Controlflow_Stmts.OddEvenincreasing",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.OddEvenincreasing",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.OddEvenincreasing",
         "peekOfCode": "number = int(input(\"Enter the number\"))\nif number%2!=0:\n    print(number*3+1)\nelse:\n    print(number/2)",
-        "detail": "Python_Phase1.Controlflow_Stmts.OddEvenincreasing",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.OddEvenincreasing",
         "documentation": {}
     },
     {
         "label": "val",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.PosNeg",
-        "description": "Python_Phase1.Controlflow_Stmts.PosNeg",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.PosNeg",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.PosNeg",
         "peekOfCode": "val = int(input(\"Enter the number to check positive or negative :\"))\nif val > 0:\n    print(\"Positive\")\nelif val == 0:\n    print(\"Zero\")\nelse:\n    print(\"Negative\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.PosNeg",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.PosNeg",
         "documentation": {}
     },
     {
         "label": "a",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Rectangle",
-        "description": "Python_Phase1.Controlflow_Stmts.Rectangle",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
         "peekOfCode": "a = int(input(\"Enter the 1st number : \"))\nb = int(input(\"Enter the 2nd number : \"))\nif a==b:\n    print(\"Square\")\nelse:\n    print(\"Rectangle\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Rectangle",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
         "documentation": {}
     },
     {
         "label": "b",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Rectangle",
-        "description": "Python_Phase1.Controlflow_Stmts.Rectangle",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
         "peekOfCode": "b = int(input(\"Enter the 2nd number : \"))\nif a==b:\n    print(\"Square\")\nelse:\n    print(\"Rectangle\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Rectangle",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Rectangle",
         "documentation": {}
     },
     {
         "label": "age",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.School",
-        "description": "Python_Phase1.Controlflow_Stmts.School",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.School",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.School",
         "peekOfCode": "age = int(input(\"Enter the age :\"))\nif age>=4:\n    print(\"Eligible\")\nelse:\n    print(\"Not eligible\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.School",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.School",
         "documentation": {}
     },
     {
         "label": "name",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Store",
-        "description": "Python_Phase1.Controlflow_Stmts.Store",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Store",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Store",
         "peekOfCode": "name = input(\"enter the name\")\ncount = int(input(\"Enter no of item\"))\nif(count>=10 and count<=99):\n    print(name,count*10)\nelif(count>=100):\n    print(name,count*7)\nelif(count<10):\n    print(name,count*12)\nelse:\n    print(\"Invalid\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Store",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Store",
         "documentation": {}
     },
     {
         "label": "count",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Store",
-        "description": "Python_Phase1.Controlflow_Stmts.Store",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Store",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Store",
         "peekOfCode": "count = int(input(\"Enter no of item\"))\nif(count>=10 and count<=99):\n    print(name,count*10)\nelif(count>=100):\n    print(name,count*7)\nelif(count<10):\n    print(name,count*12)\nelse:\n    print(\"Invalid\")",
-        "detail": "Python_Phase1.Controlflow_Stmts.Store",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Store",
         "documentation": {}
     },
     {
         "label": "income",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Tax",
-        "description": "Python_Phase1.Controlflow_Stmts.Tax",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Tax",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Tax",
         "peekOfCode": "income = int(input(\"Enter income: \"))\nif income<=250000:\n    print(\"You are exempted from tax\")\nelif income<=500000:\n    tax=(income-250000)*10/100\n    print(\"Tax amount is\", int(tax))\nelif income<=1200000:\n    tax=25000 + (income - 500000) * 20 / 100\n    print(int(tax))\nelse:",
-        "detail": "Python_Phase1.Controlflow_Stmts.Tax",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Tax",
         "documentation": {}
     },
     {
         "label": "months",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Teacher",
-        "description": "Python_Phase1.Controlflow_Stmts.Teacher",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
         "peekOfCode": "months = int(input(\"Enter month number: \"))\nyear = int(input(\"Enter year: \"))\nif months == 1:\n    month = \"January\"\n    days = 31\nelif months == 2:\n    month = \"February\"\n    if year % 400 == 0 or (year%4==0 and year%100!=0):\n        days = 29\n    else:",
-        "detail": "Python_Phase1.Controlflow_Stmts.Teacher",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
         "documentation": {}
     },
     {
         "label": "year",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Teacher",
-        "description": "Python_Phase1.Controlflow_Stmts.Teacher",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
         "peekOfCode": "year = int(input(\"Enter year: \"))\nif months == 1:\n    month = \"January\"\n    days = 31\nelif months == 2:\n    month = \"February\"\n    if year % 400 == 0 or (year%4==0 and year%100!=0):\n        days = 29\n    else:\n        days= 28",
-        "detail": "Python_Phase1.Controlflow_Stmts.Teacher",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Teacher",
         "documentation": {}
     },
     {
         "label": "month",
         "kind": 5,
-        "importPath": "Python_Phase1.Controlflow_Stmts.Teacher_month",
-        "description": "Python_Phase1.Controlflow_Stmts.Teacher_month",
+        "importPath": "Python_Phase1.Controlflow_Stmts_HO.Teacher_month",
+        "description": "Python_Phase1.Controlflow_Stmts_HO.Teacher_month",
         "peekOfCode": "month = int(input(\"Enter month number: \"))\nif month >= 3 and month <= 5:\n    print(\"Spring\")\nelif month >= 6 and month <= 8:\n    print(\"Summer\")\nelif month >= 9 and month <= 11:\n    print(\"Autumn\")\nelif month == 12 or month == 1 or month == 2:\n    print(\"Winter\")\nelse:",
-        "detail": "Python_Phase1.Controlflow_Stmts.Teacher_month",
+        "detail": "Python_Phase1.Controlflow_Stmts_HO.Teacher_month",
         "documentation": {}
     },
     {
@@ -1114,262 +1228,262 @@
     {
         "label": "add",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "def add(a,b):\n    return a+b\ndef sub(a,b):\n    return a-b\ndef mul(a,b):\n    return a*b\ndef calc(oper,a,b):\n    return oper(a,b)\nop = input(\"Enter the option : \")\naa = int(input(\"Enter the 1st number :\"))",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "sub",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "def sub(a,b):\n    return a-b\ndef mul(a,b):\n    return a*b\ndef calc(oper,a,b):\n    return oper(a,b)\nop = input(\"Enter the option : \")\naa = int(input(\"Enter the 1st number :\"))\nbb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "mul",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "def mul(a,b):\n    return a*b\ndef calc(oper,a,b):\n    return oper(a,b)\nop = input(\"Enter the option : \")\naa = int(input(\"Enter the 1st number :\"))\nbb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":\n    result=calc(add,aa,bb)\n    print(result)",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "calc",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "def calc(oper,a,b):\n    return oper(a,b)\nop = input(\"Enter the option : \")\naa = int(input(\"Enter the 1st number :\"))\nbb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":\n    result=calc(add,aa,bb)\n    print(result)\nelif op == \"sub\":\n    result=calc(sub,aa,bb)",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "op",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "op = input(\"Enter the option : \")\naa = int(input(\"Enter the 1st number :\"))\nbb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":\n    result=calc(add,aa,bb)\n    print(result)\nelif op == \"sub\":\n    result=calc(sub,aa,bb)\n    print(result)\nelif op==\"mul\":",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "aa",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "aa = int(input(\"Enter the 1st number :\"))\nbb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":\n    result=calc(add,aa,bb)\n    print(result)\nelif op == \"sub\":\n    result=calc(sub,aa,bb)\n    print(result)\nelif op==\"mul\":\n    result=calc(mul,aa,bb)",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "bb",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Calculator",
-        "description": "Python_Phase1.Functions.Calculator",
+        "importPath": "Python_Phase1.FunctionsHO.Calculator",
+        "description": "Python_Phase1.FunctionsHO.Calculator",
         "peekOfCode": "bb = int(input(\"Enter the 2ns number : \"))\nif op == \"add\":\n    result=calc(add,aa,bb)\n    print(result)\nelif op == \"sub\":\n    result=calc(sub,aa,bb)\n    print(result)\nelif op==\"mul\":\n    result=calc(mul,aa,bb)\n    print(result)",
-        "detail": "Python_Phase1.Functions.Calculator",
+        "detail": "Python_Phase1.FunctionsHO.Calculator",
         "documentation": {}
     },
     {
         "label": "prime",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.IntervalPrime",
-        "description": "Python_Phase1.Functions.IntervalPrime",
+        "importPath": "Python_Phase1.FunctionsHO.IntervalPrime",
+        "description": "Python_Phase1.FunctionsHO.IntervalPrime",
         "peekOfCode": "def prime(a,b):\n    for i in range(a,b+1):\n        if i > 1:\n            for num in range(2,i):\n             if i%num==0:\n                break\n            else:\n                print(i)\nstart = int(input(\"enter the starting number\"))\nend = int(input(\"enter the ending range : \" ))",
-        "detail": "Python_Phase1.Functions.IntervalPrime",
+        "detail": "Python_Phase1.FunctionsHO.IntervalPrime",
         "documentation": {}
     },
     {
         "label": "start",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.IntervalPrime",
-        "description": "Python_Phase1.Functions.IntervalPrime",
+        "importPath": "Python_Phase1.FunctionsHO.IntervalPrime",
+        "description": "Python_Phase1.FunctionsHO.IntervalPrime",
         "peekOfCode": "start = int(input(\"enter the starting number\"))\nend = int(input(\"enter the ending range : \" ))\nprime(start,end)",
-        "detail": "Python_Phase1.Functions.IntervalPrime",
+        "detail": "Python_Phase1.FunctionsHO.IntervalPrime",
         "documentation": {}
     },
     {
         "label": "end",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.IntervalPrime",
-        "description": "Python_Phase1.Functions.IntervalPrime",
+        "importPath": "Python_Phase1.FunctionsHO.IntervalPrime",
+        "description": "Python_Phase1.FunctionsHO.IntervalPrime",
         "peekOfCode": "end = int(input(\"enter the ending range : \" ))\nprime(start,end)",
-        "detail": "Python_Phase1.Functions.IntervalPrime",
+        "detail": "Python_Phase1.FunctionsHO.IntervalPrime",
         "documentation": {}
     },
     {
         "label": "findMax",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Maximum",
-        "description": "Python_Phase1.Functions.Maximum",
+        "importPath": "Python_Phase1.FunctionsHO.Maximum",
+        "description": "Python_Phase1.FunctionsHO.Maximum",
         "peekOfCode": "def findMax(*numbers):\n    max_value = numbers[0]\n    for num in numbers:\n        if num > max_value:\n            max_value = num\n    return max_value\nmax1 = findMax(25, 12, 18, 30)\nmax2 = findMax(8, 15, 22, 17, 12)\nprint(\"maximum value among four integers:\", max1)\nprint(\"maximum value among five integers:\", max2)",
-        "detail": "Python_Phase1.Functions.Maximum",
+        "detail": "Python_Phase1.FunctionsHO.Maximum",
         "documentation": {}
     },
     {
         "label": "max1",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Maximum",
-        "description": "Python_Phase1.Functions.Maximum",
+        "importPath": "Python_Phase1.FunctionsHO.Maximum",
+        "description": "Python_Phase1.FunctionsHO.Maximum",
         "peekOfCode": "max1 = findMax(25, 12, 18, 30)\nmax2 = findMax(8, 15, 22, 17, 12)\nprint(\"maximum value among four integers:\", max1)\nprint(\"maximum value among five integers:\", max2)",
-        "detail": "Python_Phase1.Functions.Maximum",
+        "detail": "Python_Phase1.FunctionsHO.Maximum",
         "documentation": {}
     },
     {
         "label": "max2",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Maximum",
-        "description": "Python_Phase1.Functions.Maximum",
+        "importPath": "Python_Phase1.FunctionsHO.Maximum",
+        "description": "Python_Phase1.FunctionsHO.Maximum",
         "peekOfCode": "max2 = findMax(8, 15, 22, 17, 12)\nprint(\"maximum value among four integers:\", max1)\nprint(\"maximum value among five integers:\", max2)",
-        "detail": "Python_Phase1.Functions.Maximum",
+        "detail": "Python_Phase1.FunctionsHO.Maximum",
         "documentation": {}
     },
     {
         "label": "prime",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.PrimeNumbers",
-        "description": "Python_Phase1.Functions.PrimeNumbers",
+        "importPath": "Python_Phase1.FunctionsHO.PrimeNumbers",
+        "description": "Python_Phase1.FunctionsHO.PrimeNumbers",
         "peekOfCode": "def prime(number):\n    if number<=1:\n        print(\"Not a prime\")\n    for i in range(2,number):\n        if number%i==0:\n            print(\"Not a Prime number \")\n            return   \n    print(\"prime\")\nn = int(input(\"enter a number : \"))\nprime(n)",
-        "detail": "Python_Phase1.Functions.PrimeNumbers",
+        "detail": "Python_Phase1.FunctionsHO.PrimeNumbers",
         "documentation": {}
     },
     {
         "label": "n",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.PrimeNumbers",
-        "description": "Python_Phase1.Functions.PrimeNumbers",
+        "importPath": "Python_Phase1.FunctionsHO.PrimeNumbers",
+        "description": "Python_Phase1.FunctionsHO.PrimeNumbers",
         "peekOfCode": "n = int(input(\"enter a number : \"))\nprime(n)",
-        "detail": "Python_Phase1.Functions.PrimeNumbers",
+        "detail": "Python_Phase1.FunctionsHO.PrimeNumbers",
         "documentation": {}
     },
     {
         "label": "runningodd",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "def runningodd(lb,ub):\n    odd=0\n    for i in range(lb,ub+1):\n        if i%2!=0:\n            odd+=i\n    return odd\ndef runningeven(lb,ub):\n    even=0\n    for i in range(lb,ub+1):\n        if i%2==0:",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "runningeven",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "def runningeven(lb,ub):\n    even=0\n    for i in range(lb,ub+1):\n        if i%2==0:\n            even+=i\n    return even\nlb = int(input(\"Enter lower bound : \"))\nub = int(input(\"Enter the upper bound :\"))\nevensum = runningeven(lb, ub)\noddsum = runningodd(lb, ub)",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "lb",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "lb = int(input(\"Enter lower bound : \"))\nub = int(input(\"Enter the upper bound :\"))\nevensum = runningeven(lb, ub)\noddsum = runningodd(lb, ub)\ndiff= abs(evensum-oddsum)\nprint(\"Sum of even numbers : \",evensum)\nprint(\"Sum of odd numbers : \",oddsum)\nprint(\"Absolute difference between is : \",diff)",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "ub",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "ub = int(input(\"Enter the upper bound :\"))\nevensum = runningeven(lb, ub)\noddsum = runningodd(lb, ub)\ndiff= abs(evensum-oddsum)\nprint(\"Sum of even numbers : \",evensum)\nprint(\"Sum of odd numbers : \",oddsum)\nprint(\"Absolute difference between is : \",diff)",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "evensum",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "evensum = runningeven(lb, ub)\noddsum = runningodd(lb, ub)\ndiff= abs(evensum-oddsum)\nprint(\"Sum of even numbers : \",evensum)\nprint(\"Sum of odd numbers : \",oddsum)\nprint(\"Absolute difference between is : \",diff)",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "oddsum",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Runningoddeven",
-        "description": "Python_Phase1.Functions.Runningoddeven",
+        "importPath": "Python_Phase1.FunctionsHO.Runningoddeven",
+        "description": "Python_Phase1.FunctionsHO.Runningoddeven",
         "peekOfCode": "oddsum = runningodd(lb, ub)\ndiff= abs(evensum-oddsum)\nprint(\"Sum of even numbers : \",evensum)\nprint(\"Sum of odd numbers : \",oddsum)\nprint(\"Absolute difference between is : \",diff)",
-        "detail": "Python_Phase1.Functions.Runningoddeven",
+        "detail": "Python_Phase1.FunctionsHO.Runningoddeven",
         "documentation": {}
     },
     {
         "label": "salary",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.Salary",
-        "description": "Python_Phase1.Functions.Salary",
+        "importPath": "Python_Phase1.FunctionsHO.Salary",
+        "description": "Python_Phase1.FunctionsHO.Salary",
         "peekOfCode": "def salary(oldsal,hike):\n    newsal = oldsal+(oldsal*hike/100)\n    print(\"New salary : \",newsal)\nhikes = float(input(\"Enter the hike percentage : \"))\nold = float(input(\"enter old salary : \"))\nsalary(old,hikes)",
-        "detail": "Python_Phase1.Functions.Salary",
+        "detail": "Python_Phase1.FunctionsHO.Salary",
         "documentation": {}
     },
     {
         "label": "hikes",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Salary",
-        "description": "Python_Phase1.Functions.Salary",
+        "importPath": "Python_Phase1.FunctionsHO.Salary",
+        "description": "Python_Phase1.FunctionsHO.Salary",
         "peekOfCode": "hikes = float(input(\"Enter the hike percentage : \"))\nold = float(input(\"enter old salary : \"))\nsalary(old,hikes)",
-        "detail": "Python_Phase1.Functions.Salary",
+        "detail": "Python_Phase1.FunctionsHO.Salary",
         "documentation": {}
     },
     {
         "label": "old",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.Salary",
-        "description": "Python_Phase1.Functions.Salary",
+        "importPath": "Python_Phase1.FunctionsHO.Salary",
+        "description": "Python_Phase1.FunctionsHO.Salary",
         "peekOfCode": "old = float(input(\"enter old salary : \"))\nsalary(old,hikes)",
-        "detail": "Python_Phase1.Functions.Salary",
+        "detail": "Python_Phase1.FunctionsHO.Salary",
         "documentation": {}
     },
     {
         "label": "sum_even_odd",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.SumOddEven",
-        "description": "Python_Phase1.Functions.SumOddEven",
+        "importPath": "Python_Phase1.FunctionsHO.SumOddEven",
+        "description": "Python_Phase1.FunctionsHO.SumOddEven",
         "peekOfCode": "def sum_even_odd(numbers):\n    even = odd = 0\n    for i in numbers:\n        if i % 2 == 0:\n            even += i\n        else:\n            odd += i\n    print(\"Sum of Even Numbers :\", even)\n    print(\"Sum of Odd Numbers  :\", odd)\nnums = [1,4,5,7,3,9]",
-        "detail": "Python_Phase1.Functions.SumOddEven",
+        "detail": "Python_Phase1.FunctionsHO.SumOddEven",
         "documentation": {}
     },
     {
         "label": "nums",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.SumOddEven",
-        "description": "Python_Phase1.Functions.SumOddEven",
+        "importPath": "Python_Phase1.FunctionsHO.SumOddEven",
+        "description": "Python_Phase1.FunctionsHO.SumOddEven",
         "peekOfCode": "nums = [1,4,5,7,3,9]\nsum_even_odd(nums)",
-        "detail": "Python_Phase1.Functions.SumOddEven",
+        "detail": "Python_Phase1.FunctionsHO.SumOddEven",
         "documentation": {}
     },
     {
         "label": "increment",
         "kind": 2,
-        "importPath": "Python_Phase1.Functions.XyzTech",
-        "description": "Python_Phase1.Functions.XyzTech",
+        "importPath": "Python_Phase1.FunctionsHO.XyzTech",
+        "description": "Python_Phase1.FunctionsHO.XyzTech",
         "peekOfCode": "def increment(salary,rating):\n    if rating>1 and rating<4:\n        print(\"Salary : \",salary*0.10+salary)\n    elif rating>4.1 and rating<7:\n        print(\"Salary : \",salary*0.25+salary)\n    elif rating>=7 and rating<=10:\n        print(\"Salary : \",salary*0.30+salary)\n    else:\n        print(\"No increment\")\nsal = int(input(\"enter the salary : \"))",
-        "detail": "Python_Phase1.Functions.XyzTech",
+        "detail": "Python_Phase1.FunctionsHO.XyzTech",
         "documentation": {}
     },
     {
         "label": "sal",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.XyzTech",
-        "description": "Python_Phase1.Functions.XyzTech",
+        "importPath": "Python_Phase1.FunctionsHO.XyzTech",
+        "description": "Python_Phase1.FunctionsHO.XyzTech",
         "peekOfCode": "sal = int(input(\"enter the salary : \"))\nrate = float(input(\"Enter the rating : \"))\nincrement(sal,rate)",
-        "detail": "Python_Phase1.Functions.XyzTech",
+        "detail": "Python_Phase1.FunctionsHO.XyzTech",
         "documentation": {}
     },
     {
         "label": "rate",
         "kind": 5,
-        "importPath": "Python_Phase1.Functions.XyzTech",
-        "description": "Python_Phase1.Functions.XyzTech",
+        "importPath": "Python_Phase1.FunctionsHO.XyzTech",
+        "description": "Python_Phase1.FunctionsHO.XyzTech",
         "peekOfCode": "rate = float(input(\"Enter the rating : \"))\nincrement(sal,rate)",
-        "detail": "Python_Phase1.Functions.XyzTech",
+        "detail": "Python_Phase1.FunctionsHO.XyzTech",
         "documentation": {}
     },
     {
@@ -1658,6 +1772,735 @@
         "description": "Python_Phase1.Modules&Packages.mymodule",
         "peekOfCode": "dept_code = 100",
         "detail": "Python_Phase1.Modules&Packages.mymodule",
+        "documentation": {}
+    },
+    {
+        "label": "circle_area",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "description": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "peekOfCode": "def circle_area(r):\n    return round(math.pi*r*r,2)\ndef rectangle_area(l,b):\n    return l*b",
+        "detail": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "documentation": {}
+    },
+    {
+        "label": "rectangle_area",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "description": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "peekOfCode": "def rectangle_area(l,b):\n    return l*b",
+        "detail": "Python_Phase1.Modules_Packages_handson.geometry.shapes",
+        "documentation": {}
+    },
+    {
+        "label": "prime",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.utilities.number_utils",
+        "description": "Python_Phase1.Modules_Packages_handson.utilities.number_utils",
+        "peekOfCode": "def prime(n):\n    if n<=1:\n        return False\n    for i in range(2,n):\n        if n%i==0:\n            return False\n    return True",
+        "detail": "Python_Phase1.Modules_Packages_handson.utilities.number_utils",
+        "documentation": {}
+    },
+    {
+        "label": "vowel",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.utilities.string_utils",
+        "description": "Python_Phase1.Modules_Packages_handson.utilities.string_utils",
+        "peekOfCode": "def vowel(s):\n    c=0\n    for i in s:\n        if i.lower() in \"aeiou\":\n            c+=1\n    return c",
+        "detail": "Python_Phase1.Modules_Packages_handson.utilities.string_utils",
+        "documentation": {}
+    },
+    {
+        "label": "add",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.calculator",
+        "description": "Python_Phase1.Modules_Packages_handson.calculator",
+        "peekOfCode": "def add(a,b):\n    return a+b\ndef subtract(a,b):\n    return a-b",
+        "detail": "Python_Phase1.Modules_Packages_handson.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "subtract",
+        "kind": 2,
+        "importPath": "Python_Phase1.Modules_Packages_handson.calculator",
+        "description": "Python_Phase1.Modules_Packages_handson.calculator",
+        "peekOfCode": "def subtract(a,b):\n    return a-b",
+        "detail": "Python_Phase1.Modules_Packages_handson.calculator",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "description": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "peekOfCode": "r = int(input(\"Enter radius : \"))\nl = int(input(\"Enter length : \"))\nb = int(input(\"Enter breadth : \"))\nprint(circle_area(r))\nprint(rectangle_area(l,b))",
+        "detail": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "description": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "peekOfCode": "l = int(input(\"Enter length : \"))\nb = int(input(\"Enter breadth : \"))\nprint(circle_area(r))\nprint(rectangle_area(l,b))",
+        "detail": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "description": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "peekOfCode": "b = int(input(\"Enter breadth : \"))\nprint(circle_area(r))\nprint(rectangle_area(l,b))",
+        "detail": "Python_Phase1.Modules_Packages_handson.Geometry",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Password",
+        "description": "Python_Phase1.Modules_Packages_handson.Password",
+        "peekOfCode": "n = int(input(\"Enter password length : \"))\ns = string.ascii_letters+string.digits+string.punctuation\np = \"\"\nif n>=3:\n    p+=random.choice(string.ascii_letters)\n    p+=random.choice(string.digits)\n    p+=random.choice(string.punctuation)\nfor i in range(n-len(p)):\n    p+=random.choice(s)\np = list(p)",
+        "detail": "Python_Phase1.Modules_Packages_handson.Password",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Password",
+        "description": "Python_Phase1.Modules_Packages_handson.Password",
+        "peekOfCode": "s = string.ascii_letters+string.digits+string.punctuation\np = \"\"\nif n>=3:\n    p+=random.choice(string.ascii_letters)\n    p+=random.choice(string.digits)\n    p+=random.choice(string.punctuation)\nfor i in range(n-len(p)):\n    p+=random.choice(s)\np = list(p)\nrandom.shuffle(p)",
+        "detail": "Python_Phase1.Modules_Packages_handson.Password",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Password",
+        "description": "Python_Phase1.Modules_Packages_handson.Password",
+        "peekOfCode": "p = \"\"\nif n>=3:\n    p+=random.choice(string.ascii_letters)\n    p+=random.choice(string.digits)\n    p+=random.choice(string.punctuation)\nfor i in range(n-len(p)):\n    p+=random.choice(s)\np = list(p)\nrandom.shuffle(p)\np = \"\".join(p)",
+        "detail": "Python_Phase1.Modules_Packages_handson.Password",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Password",
+        "description": "Python_Phase1.Modules_Packages_handson.Password",
+        "peekOfCode": "p = list(p)\nrandom.shuffle(p)\np = \"\".join(p)\nprint(\"Generated password :\",p)",
+        "detail": "Python_Phase1.Modules_Packages_handson.Password",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Password",
+        "description": "Python_Phase1.Modules_Packages_handson.Password",
+        "peekOfCode": "p = \"\".join(p)\nprint(\"Generated password :\",p)",
+        "detail": "Python_Phase1.Modules_Packages_handson.Password",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.RandomItem",
+        "description": "Python_Phase1.Modules_Packages_handson.RandomItem",
+        "peekOfCode": "l = input(\"Enter items separated by space : \").split()\nprint(random.choice(l))",
+        "detail": "Python_Phase1.Modules_Packages_handson.RandomItem",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "description": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "peekOfCode": "n = int(input(\"Enter degree : \"))\nr = n*3.14159/180\nprint(\"sin(\",n,\") =\",round(sin(r),1))\nprint(\"cos(\",n,\") =\",round(cos(r),1))",
+        "detail": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "description": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "peekOfCode": "r = n*3.14159/180\nprint(\"sin(\",n,\") =\",round(sin(r),1))\nprint(\"cos(\",n,\") =\",round(cos(r),1))",
+        "detail": "Python_Phase1.Modules_Packages_handson.SinCos",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.SquareFactorial",
+        "description": "Python_Phase1.Modules_Packages_handson.SquareFactorial",
+        "peekOfCode": "n = int(input(\"Enter a number : \"))\nprint(\"Square root :\",math.sqrt(n))\nprint(\"Factorial :\",math.factorial(n))",
+        "detail": "Python_Phase1.Modules_Packages_handson.SquareFactorial",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.SquareRoot",
+        "description": "Python_Phase1.Modules_Packages_handson.SquareRoot",
+        "peekOfCode": "n = int(input(\"Enter a number : \"))\nprint(math.sqrt(n))",
+        "detail": "Python_Phase1.Modules_Packages_handson.SquareRoot",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "description": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "peekOfCode": "a = int(input(\"Enter first number : \"))\nb = int(input(\"Enter second number : \"))\nprint(calculator.add(a,b))\nprint(calculator.subtract(a,b))",
+        "detail": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "description": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "peekOfCode": "b = int(input(\"Enter second number : \"))\nprint(calculator.add(a,b))\nprint(calculator.subtract(a,b))",
+        "detail": "Python_Phase1.Modules_Packages_handson.UseCalculator",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "description": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "peekOfCode": "s = input(\"Enter a string : \")\nn = int(input(\"Enter a number : \"))\nprint(vowel(s))\nprint(prime(n))",
+        "detail": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "description": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "peekOfCode": "n = int(input(\"Enter a number : \"))\nprint(vowel(s))\nprint(prime(n))",
+        "detail": "Python_Phase1.Modules_Packages_handson.Utilities",
+        "documentation": {}
+    },
+    {
+        "label": "Area",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Area",
+        "description": "Python_Phase1.OOPS_Handson.Area",
+        "peekOfCode": "class Area:\n    def setDim(self,l,b):\n        self.l=l\n        self.b=b\n    def getArea(self):\n        return self.l*self.b\nl = int(input(\"Enter length : \"))\nb = int(input(\"Enter breadth : \"))\na = Area()\na.setDim(l,b)",
+        "detail": "Python_Phase1.OOPS_Handson.Area",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Area",
+        "description": "Python_Phase1.OOPS_Handson.Area",
+        "peekOfCode": "l = int(input(\"Enter length : \"))\nb = int(input(\"Enter breadth : \"))\na = Area()\na.setDim(l,b)\nprint(\"Area :\",a.getArea())",
+        "detail": "Python_Phase1.OOPS_Handson.Area",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Area",
+        "description": "Python_Phase1.OOPS_Handson.Area",
+        "peekOfCode": "b = int(input(\"Enter breadth : \"))\na = Area()\na.setDim(l,b)\nprint(\"Area :\",a.getArea())",
+        "detail": "Python_Phase1.OOPS_Handson.Area",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Area",
+        "description": "Python_Phase1.OOPS_Handson.Area",
+        "peekOfCode": "a = Area()\na.setDim(l,b)\nprint(\"Area :\",a.getArea())",
+        "detail": "Python_Phase1.OOPS_Handson.Area",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "class Vehicle:\n    def __init__(self,b,y):\n        self.brand=b\n        self.year=y\n    def displayInfo(self):\n        print(\"Brand :\",self.brand)\n        print(\"Year :\",self.year)\nclass Car(Vehicle):\n    def __init__(self,b,y,m):\n        super().__init__(b,y)",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "Car",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "class Car(Vehicle):\n    def __init__(self,b,y,m):\n        super().__init__(b,y)\n        self.model=m\n    def displayCarInfo(self):\n        print(\"Brand :\",self.brand)\n        print(\"Model :\",self.model)\n        print(\"Year :\",self.year)\nb = input(\"Enter brand : \")\ny = int(input(\"Enter year : \"))",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "b = input(\"Enter brand : \")\ny = int(input(\"Enter year : \"))\nm = input(\"Enter model : \")\nc = Car(b,y,m)\nc.displayInfo()\nc.displayCarInfo()",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "y",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "y = int(input(\"Enter year : \"))\nm = input(\"Enter model : \")\nc = Car(b,y,m)\nc.displayInfo()\nc.displayCarInfo()",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "m = input(\"Enter model : \")\nc = Car(b,y,m)\nc.displayInfo()\nc.displayCarInfo()",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Car",
+        "description": "Python_Phase1.OOPS_Handson.Car",
+        "peekOfCode": "c = Car(b,y,m)\nc.displayInfo()\nc.displayCarInfo()",
+        "detail": "Python_Phase1.OOPS_Handson.Car",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Circle",
+        "description": "Python_Phase1.OOPS_Handson.Circle",
+        "peekOfCode": "class Circle:\n    def __init__(self,r=1.0,c=\"red\"):\n        self.__radius=r\n        self.__color=c\n    def getRadius(self):\n        return self.__radius\n    def getColor(self):\n        return self.__color\n    def setRadius(self,r):\n        self.__radius=r",
+        "detail": "Python_Phase1.OOPS_Handson.Circle",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Circle",
+        "description": "Python_Phase1.OOPS_Handson.Circle",
+        "peekOfCode": "c1 = Circle()\nc2 = Circle(2.0)\nc3 = Circle(3.0,\"blue\")\nc1.setRadius(4.0)\nc1.setColor(\"green\")\nprint(c1.getRadius())\nprint(c1.getColor())\nprint(c1.toString())\nprint(c2.toString())\nprint(c3.toString())",
+        "detail": "Python_Phase1.OOPS_Handson.Circle",
+        "documentation": {}
+    },
+    {
+        "label": "c2",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Circle",
+        "description": "Python_Phase1.OOPS_Handson.Circle",
+        "peekOfCode": "c2 = Circle(2.0)\nc3 = Circle(3.0,\"blue\")\nc1.setRadius(4.0)\nc1.setColor(\"green\")\nprint(c1.getRadius())\nprint(c1.getColor())\nprint(c1.toString())\nprint(c2.toString())\nprint(c3.toString())\nprint(c3.getArea())",
+        "detail": "Python_Phase1.OOPS_Handson.Circle",
+        "documentation": {}
+    },
+    {
+        "label": "c3",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Circle",
+        "description": "Python_Phase1.OOPS_Handson.Circle",
+        "peekOfCode": "c3 = Circle(3.0,\"blue\")\nc1.setRadius(4.0)\nc1.setColor(\"green\")\nprint(c1.getRadius())\nprint(c1.getColor())\nprint(c1.toString())\nprint(c2.toString())\nprint(c3.toString())\nprint(c3.getArea())",
+        "detail": "Python_Phase1.OOPS_Handson.Circle",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "peekOfCode": "class Employee:\n    def getInfo(self,s,h):\n        self.s=s\n        self.h=h\n    def AddSal(self):\n        if self.s<500:\n            self.s+=10\n    def AddWork(self):\n        if self.h>6:\n            self.s+=5",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "peekOfCode": "s = float(input(\"Enter salary : \"))\nh = int(input(\"Enter working hours : \"))\ne = Employee()\ne.getInfo(s,h)\ne.AddSal()\ne.AddWork()\nprint(\"Final salary :\",e.s)",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "documentation": {}
+    },
+    {
+        "label": "h",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "peekOfCode": "h = int(input(\"Enter working hours : \"))\ne = Employee()\ne.getInfo(s,h)\ne.AddSal()\ne.AddWork()\nprint(\"Final salary :\",e.s)",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "peekOfCode": "e = Employee()\ne.getInfo(s,h)\ne.AddSal()\ne.AddWork()\nprint(\"Final salary :\",e.s)",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeSalary",
+        "documentation": {}
+    },
+    {
+        "label": "Employee",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "class Employee(ABC):\n    def __init__(self,i,n):\n        self.employeeID=i\n        self.name=n\n    def displayInfo(self):\n        print(\"Employee ID :\",self.employeeID)\n        print(\"Name :\",self.name)\n    @abstractmethod\n    def calculateSalary(self):\n        pass",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "FullTimeEmployee",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "class FullTimeEmployee(Employee):\n    def __init__(self,i,n,s):\n        super().__init__(i,n)\n        self.salary=s\n    def calculateSalary(self):\n        return self.salary\nclass PartTimeEmployee(Employee):\n    def __init__(self,i,n,r,h):\n        super().__init__(i,n)\n        self.hourlyRate=r",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "PartTimeEmployee",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "class PartTimeEmployee(Employee):\n    def __init__(self,i,n,r,h):\n        super().__init__(i,n)\n        self.hourlyRate=r\n        self.hoursWorked=h\n    def calculateSalary(self):\n        return self.hourlyRate*self.hoursWorked\nclass ContractEmployee(Employee):\n    def __init__(self,i,n,d,p):\n        super().__init__(i,n)",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "ContractEmployee",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "class ContractEmployee(Employee):\n    def __init__(self,i,n,d,p):\n        super().__init__(i,n)\n        self.contractDuration=d\n        self.pay=p\n    def calculateSalary(self):\n        return self.contractDuration*self.pay\ne1 = FullTimeEmployee(1,\"Arun\",30000)\ne2 = PartTimeEmployee(2,\"Bala\",200,80)\ne3 = ContractEmployee(3,\"Charan\",6,25000)",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "e1",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "e1 = FullTimeEmployee(1,\"Arun\",30000)\ne2 = PartTimeEmployee(2,\"Bala\",200,80)\ne3 = ContractEmployee(3,\"Charan\",6,25000)\nfor e in [e1,e2,e3]:\n    e.displayInfo()\n    print(\"Salary :\",e.calculateSalary())",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "e2",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "e2 = PartTimeEmployee(2,\"Bala\",200,80)\ne3 = ContractEmployee(3,\"Charan\",6,25000)\nfor e in [e1,e2,e3]:\n    e.displayInfo()\n    print(\"Salary :\",e.calculateSalary())",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "e3",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "description": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "peekOfCode": "e3 = ContractEmployee(3,\"Charan\",6,25000)\nfor e in [e1,e2,e3]:\n    e.displayInfo()\n    print(\"Salary :\",e.calculateSalary())",
+        "detail": "Python_Phase1.OOPS_Handson.EmployeeTypes",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.ProcessString",
+        "description": "Python_Phase1.OOPS_Handson.ProcessString",
+        "peekOfCode": "class String:\n    def ProcessString(self,s,a=None):\n        if a is None:\n            return s.upper()\n        elif isinstance(a,str):\n            return s[::-1]\n        else:\n            return len(s)\ns = input(\"Enter a string : \")\no = String()",
+        "detail": "Python_Phase1.OOPS_Handson.ProcessString",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.ProcessString",
+        "description": "Python_Phase1.OOPS_Handson.ProcessString",
+        "peekOfCode": "s = input(\"Enter a string : \")\no = String()\nprint(o.ProcessString(s))\nprint(o.ProcessString(s,\"reverse\"))\nprint(o.ProcessString(s,1))",
+        "detail": "Python_Phase1.OOPS_Handson.ProcessString",
+        "documentation": {}
+    },
+    {
+        "label": "o",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.ProcessString",
+        "description": "Python_Phase1.OOPS_Handson.ProcessString",
+        "peekOfCode": "o = String()\nprint(o.ProcessString(s))\nprint(o.ProcessString(s,\"reverse\"))\nprint(o.ProcessString(s,1))",
+        "detail": "Python_Phase1.OOPS_Handson.ProcessString",
+        "documentation": {}
+    },
+    {
+        "label": "School",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.School",
+        "description": "Python_Phase1.OOPS_Handson.School",
+        "peekOfCode": "class School:\n    totalStudents=0\n    MAX_CAPACITY=500\n    def enrollStudent(self):\n        if School.totalStudents<School.MAX_CAPACITY:\n            School.totalStudents+=1\n    def getTotalStudents(self):\n        return School.totalStudents\nn = int(input(\"Enter number of students : \"))\ns = School()",
+        "detail": "Python_Phase1.OOPS_Handson.School",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.School",
+        "description": "Python_Phase1.OOPS_Handson.School",
+        "peekOfCode": "n = int(input(\"Enter number of students : \"))\ns = School()\nfor i in range(n):\n    s.enrollStudent()\nprint(\"Total students :\",s.getTotalStudents())\nprint(\"Maximum capacity :\",School.MAX_CAPACITY)",
+        "detail": "Python_Phase1.OOPS_Handson.School",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.School",
+        "description": "Python_Phase1.OOPS_Handson.School",
+        "peekOfCode": "s = School()\nfor i in range(n):\n    s.enrollStudent()\nprint(\"Total students :\",s.getTotalStudents())\nprint(\"Maximum capacity :\",School.MAX_CAPACITY)",
+        "detail": "Python_Phase1.OOPS_Handson.School",
+        "documentation": {}
+    },
+    {
+        "label": "IShape",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "class IShape(ABC):\n    @abstractmethod\n    def CalculateArea(self):\n        pass\n    @abstractmethod\n    def CalculatePerimeter(self):\n        pass\nclass Rectangle(IShape):\n    def __init__(self,l,b):\n        self.l=l",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "class Rectangle(IShape):\n    def __init__(self,l,b):\n        self.l=l\n        self.b=b\n    def CalculateArea(self):\n        return self.l*self.b\n    def CalculatePerimeter(self):\n        return 2*(self.l+self.b)\nclass Circle(IShape):\n    def __init__(self,r):",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "Circle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "class Circle(IShape):\n    def __init__(self,r):\n        self.r=r\n    def CalculateArea(self):\n        return math.pi*self.r*self.r\n    def CalculatePerimeter(self):\n        return 2*math.pi*self.r\nl = float(input(\"Enter length : \"))\nb = float(input(\"Enter breadth : \"))\nr = float(input(\"Enter radius : \"))",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "l",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "l = float(input(\"Enter length : \"))\nb = float(input(\"Enter breadth : \"))\nr = float(input(\"Enter radius : \"))\ns1 = Rectangle(l,b)\ns2 = Circle(r)\nprint(\"Rectangle area :\",s1.CalculateArea())\nprint(\"Rectangle perimeter :\",s1.CalculatePerimeter())\nprint(\"Circle area :\",s2.CalculateArea())\nprint(\"Circle perimeter :\",s2.CalculatePerimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "b = float(input(\"Enter breadth : \"))\nr = float(input(\"Enter radius : \"))\ns1 = Rectangle(l,b)\ns2 = Circle(r)\nprint(\"Rectangle area :\",s1.CalculateArea())\nprint(\"Rectangle perimeter :\",s1.CalculatePerimeter())\nprint(\"Circle area :\",s2.CalculateArea())\nprint(\"Circle perimeter :\",s2.CalculatePerimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "r",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "r = float(input(\"Enter radius : \"))\ns1 = Rectangle(l,b)\ns2 = Circle(r)\nprint(\"Rectangle area :\",s1.CalculateArea())\nprint(\"Rectangle perimeter :\",s1.CalculatePerimeter())\nprint(\"Circle area :\",s2.CalculateArea())\nprint(\"Circle perimeter :\",s2.CalculatePerimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "s1 = Rectangle(l,b)\ns2 = Circle(r)\nprint(\"Rectangle area :\",s1.CalculateArea())\nprint(\"Rectangle perimeter :\",s1.CalculatePerimeter())\nprint(\"Circle area :\",s2.CalculateArea())\nprint(\"Circle perimeter :\",s2.CalculatePerimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Shape",
+        "description": "Python_Phase1.OOPS_Handson.Shape",
+        "peekOfCode": "s2 = Circle(r)\nprint(\"Rectangle area :\",s1.CalculateArea())\nprint(\"Rectangle perimeter :\",s1.CalculatePerimeter())\nprint(\"Circle area :\",s2.CalculateArea())\nprint(\"Circle perimeter :\",s2.CalculatePerimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Shape",
+        "documentation": {}
+    },
+    {
+        "label": "Student",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "class Student:\n    def __init__(self,i=0,n=\"Unknown\",a=0,g=\"Unknown\"):\n        self.id=i\n        self.name=n\n        self.age=a\n        self.grade=g\n    def display(self):\n        print(self.id,self.name,self.age,self.grade)\ns1 = Student()\ni = int(input(\"Enter student id : \"))",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "s1",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "s1 = Student()\ni = int(input(\"Enter student id : \"))\nn = input(\"Enter student name : \")\na = int(input(\"Enter student age : \"))\ng = input(\"Enter student grade : \")\ns2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "i = int(input(\"Enter student id : \"))\nn = input(\"Enter student name : \")\na = int(input(\"Enter student age : \"))\ng = input(\"Enter student grade : \")\ns2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "n = input(\"Enter student name : \")\na = int(input(\"Enter student age : \"))\ng = input(\"Enter student grade : \")\ns2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "a = int(input(\"Enter student age : \"))\ng = input(\"Enter student grade : \")\ns2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "g",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "g = input(\"Enter student grade : \")\ns2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "s2",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Student",
+        "description": "Python_Phase1.OOPS_Handson.Student",
+        "peekOfCode": "s2 = Student(i,n,a,g)\ns1.display()\ns2.display()",
+        "detail": "Python_Phase1.OOPS_Handson.Student",
+        "documentation": {}
+    },
+    {
+        "label": "TemperatureConverter",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "description": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "peekOfCode": "class TemperatureConverter:\n    @staticmethod\n    def celsiusToFahrenheit(c):\n        return c*9/5+32\n    @staticmethod\n    def fahrenheitToCelsius(f):\n        return (f-32)*5/9\nc = float(input(\"Enter celsius : \"))\nf = float(input(\"Enter fahrenheit : \"))\nprint(\"Fahrenheit :\",TemperatureConverter.celsiusToFahrenheit(c))",
+        "detail": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "description": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "peekOfCode": "c = float(input(\"Enter celsius : \"))\nf = float(input(\"Enter fahrenheit : \"))\nprint(\"Fahrenheit :\",TemperatureConverter.celsiusToFahrenheit(c))\nprint(\"Celsius :\",TemperatureConverter.fahrenheitToCelsius(f))",
+        "detail": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "description": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "peekOfCode": "f = float(input(\"Enter fahrenheit : \"))\nprint(\"Fahrenheit :\",TemperatureConverter.celsiusToFahrenheit(c))\nprint(\"Celsius :\",TemperatureConverter.fahrenheitToCelsius(f))",
+        "detail": "Python_Phase1.OOPS_Handson.TemperatureConverter",
+        "documentation": {}
+    },
+    {
+        "label": "Triangle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.Triangle",
+        "description": "Python_Phase1.OOPS_Handson.Triangle",
+        "peekOfCode": "class Triangle:\n    def __init__(self):\n        self.a=3\n        self.b=4\n        self.c=5\n    def area(self):\n        s=(self.a+self.b+self.c)/2\n        return (s*(s-self.a)*(s-self.b)*(s-self.c))**0.5\n    def perimeter(self):\n        return self.a+self.b+self.c",
+        "detail": "Python_Phase1.OOPS_Handson.Triangle",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.Triangle",
+        "description": "Python_Phase1.OOPS_Handson.Triangle",
+        "peekOfCode": "t = Triangle()\nprint(\"Area :\",t.area())\nprint(\"Perimeter :\",t.perimeter())",
+        "detail": "Python_Phase1.OOPS_Handson.Triangle",
+        "documentation": {}
+    },
+    {
+        "label": "Vehicle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "class Vehicle(ABC):\n    @abstractmethod\n    def start(self):\n        pass\n    @abstractmethod\n    def stop(self):\n        pass\nclass ElectricVehicle(ABC):\n    @abstractmethod\n    def charge(self):",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricVehicle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "class ElectricVehicle(ABC):\n    @abstractmethod\n    def charge(self):\n        pass\nclass GasVehicle(ABC):\n    @abstractmethod\n    def refuel(self):\n        pass\nclass ElectricCar(Vehicle,ElectricVehicle):\n    def start(self):",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "GasVehicle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "class GasVehicle(ABC):\n    @abstractmethod\n    def refuel(self):\n        pass\nclass ElectricCar(Vehicle,ElectricVehicle):\n    def start(self):\n        print(\"Electric car started\")\n    def stop(self):\n        print(\"Electric car stopped\")\n    def charge(self):",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "ElectricCar",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "class ElectricCar(Vehicle,ElectricVehicle):\n    def start(self):\n        print(\"Electric car started\")\n    def stop(self):\n        print(\"Electric car stopped\")\n    def charge(self):\n        print(\"Electric car is charging\")\nclass GasMotorcycle(Vehicle,GasVehicle):\n    def start(self):\n        print(\"Gas motorcycle started\")",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "GasMotorcycle",
+        "kind": 6,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "class GasMotorcycle(Vehicle,GasVehicle):\n    def start(self):\n        print(\"Gas motorcycle started\")\n    def stop(self):\n        print(\"Gas motorcycle stopped\")\n    def refuel(self):\n        print(\"Gas motorcycle is refueling\")\nc = ElectricCar()\nm = GasMotorcycle()\nc.start()",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "c = ElectricCar()\nm = GasMotorcycle()\nc.start()\nc.charge()\nc.stop()\nm.start()\nm.refuel()\nm.stop()",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "description": "Python_Phase1.OOPS_Handson.VehicleInterface",
+        "peekOfCode": "m = GasMotorcycle()\nc.start()\nc.charge()\nc.stop()\nm.start()\nm.refuel()\nm.stop()",
+        "detail": "Python_Phase1.OOPS_Handson.VehicleInterface",
         "documentation": {}
     },
     {
@@ -2207,6 +3050,150 @@
         "description": "Python_Phase1.OOPS_Practice.Protocols-Interfacing",
         "peekOfCode": "paypalpay = paypal()\nprocessorder(creditpay,100)\nprocessorder(paypalpay,200)",
         "detail": "Python_Phase1.OOPS_Practice.Protocols-Interfacing",
+        "documentation": {}
+    },
+    {
+        "label": "extract_dates",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractDates",
+        "description": "Python_Phase1.Regex_Handson.ExtractDates",
+        "peekOfCode": "def extract_dates(t):\n    return re.findall(r\"\\b\\d{2}/\\d{2}/\\d{4}\\b\",t)\nt = input(\"Enter text : \")\nprint(extract_dates(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractDates",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractDates",
+        "description": "Python_Phase1.Regex_Handson.ExtractDates",
+        "peekOfCode": "t = input(\"Enter text : \")\nprint(extract_dates(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractDates",
+        "documentation": {}
+    },
+    {
+        "label": "extract_hashtags",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "description": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "peekOfCode": "def extract_hashtags(t):\n    return re.findall(r\"#[A-Za-z0-9_]+\",t)\nt = input(\"Enter text : \")\nprint(extract_hashtags(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "description": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "peekOfCode": "t = input(\"Enter text : \")\nprint(extract_hashtags(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractHashtags",
+        "documentation": {}
+    },
+    {
+        "label": "extract_numbers",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "description": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "peekOfCode": "def extract_numbers(t):\n    return re.findall(r\"\\d+(?:\\.\\d+)?\",t)\nt = input(\"Enter text : \")\nprint(extract_numbers(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "description": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "peekOfCode": "t = input(\"Enter text : \")\nprint(extract_numbers(t))",
+        "detail": "Python_Phase1.Regex_Handson.ExtractNumbers",
+        "documentation": {}
+    },
+    {
+        "label": "format_phone_number",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.FormatPhone",
+        "description": "Python_Phase1.Regex_Handson.FormatPhone",
+        "peekOfCode": "def format_phone_number(n):\n    n = re.sub(r\"\\D\",\"\",n)\n    m = re.fullmatch(r\"(\\d{3})(\\d{3})(\\d{4})\",n)\n    if m:\n        return \"+1-\"+m.group(1)+\"-\"+m.group(2)+\"-\"+m.group(3)\n    return \"Invalid number\"\nn = input(\"Enter phone number : \")\nprint(format_phone_number(n))",
+        "detail": "Python_Phase1.Regex_Handson.FormatPhone",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.FormatPhone",
+        "description": "Python_Phase1.Regex_Handson.FormatPhone",
+        "peekOfCode": "n = input(\"Enter phone number : \")\nprint(format_phone_number(n))",
+        "detail": "Python_Phase1.Regex_Handson.FormatPhone",
+        "documentation": {}
+    },
+    {
+        "label": "extract_words",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "description": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "peekOfCode": "def extract_words(t):\n    return re.findall(r\"\\b[A-Za-z]{4}\\b\",t)\nt = input(\"Enter text : \")\nprint(extract_words(t))",
+        "detail": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "description": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "peekOfCode": "t = input(\"Enter text : \")\nprint(extract_words(t))",
+        "detail": "Python_Phase1.Regex_Handson.FourLetterWords",
+        "documentation": {}
+    },
+    {
+        "label": "validate_email",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "description": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "peekOfCode": "def validate_email(e):\n    p = r\"[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}\"\n    return bool(re.fullmatch(p,e))\ne = input(\"Enter email : \")\nprint(validate_email(e))",
+        "detail": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "description": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "peekOfCode": "e = input(\"Enter email : \")\nprint(validate_email(e))",
+        "detail": "Python_Phase1.Regex_Handson.ValidateEmail",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "description": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "peekOfCode": "def validate_password(p):\n    x = r\"(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&*]).{8,}\"\n    return bool(re.fullmatch(x,p))\np = input(\"Enter password : \")\nprint(validate_password(p))",
+        "detail": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "documentation": {}
+    },
+    {
+        "label": "p",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "description": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "peekOfCode": "p = input(\"Enter password : \")\nprint(validate_password(p))",
+        "detail": "Python_Phase1.Regex_Handson.ValidatePassword",
+        "documentation": {}
+    },
+    {
+        "label": "validate_username",
+        "kind": 2,
+        "importPath": "Python_Phase1.Regex_Handson.ValidateUsername",
+        "description": "Python_Phase1.Regex_Handson.ValidateUsername",
+        "peekOfCode": "def validate_username(u):\n    if re.fullmatch(r\"[A-Za-z0-9]{5,15}\",u):\n        return \"Valid\"\n    return \"Invalid\"\nu = input(\"Enter username : \")\nprint(validate_username(u))",
+        "detail": "Python_Phase1.Regex_Handson.ValidateUsername",
+        "documentation": {}
+    },
+    {
+        "label": "u",
+        "kind": 5,
+        "importPath": "Python_Phase1.Regex_Handson.ValidateUsername",
+        "description": "Python_Phase1.Regex_Handson.ValidateUsername",
+        "peekOfCode": "u = input(\"Enter username : \")\nprint(validate_username(u))",
+        "detail": "Python_Phase1.Regex_Handson.ValidateUsername",
         "documentation": {}
     },
     {
